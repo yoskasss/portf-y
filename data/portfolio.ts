@@ -3,7 +3,7 @@
  * Replace any value that starts with "YOUR_" — items with a placeholder
  * URL render without a link until you fill them in.
  */
-export const SITE_URL = "https://YOUR_DOMAIN"; // canonical URL placeholder
+export const SITE_URL = "https://yoskass.dev"; // canonical URL placeholder
 
 export const portfolio = {
   name: "Enes Aksoy",
@@ -26,10 +26,10 @@ export const portfolio = {
   },
 
   projects: [
-    { name: "VioletOS", tag: "low-level", description: "Operating system built from scratch.", url: "YOUR_PROJECT_URL" },
-    { name: "ZekaNet Labs", tag: "startup", description: "A small startup venture.", url: "YOUR_PROJECT_URL" },
-    { name: "ShitMyWeb", tag: "security", description: "Anonymous, no-log media sharing site.", url: "YOUR_PROJECT_URL" },
-    { name: "YoskFunc", tag: "tools", description: "A function analysis application.", url: "YOUR_PROJECT_URL" },
+    { name: "VioletOS", tag: "low-level", description: "Operating system built from scratch.", url: "https://violetos.site.je" },
+    { name: "ZekaNet Labs", tag: "startup", description: "A small startup venture.", url: "https://zekanet.com" },
+    { name: "ShitMyWeb", tag: "security", description: "Anonymous, no-log media sharing site.", url: "https://shitmyweb.free.nf" },
+    { name: "goShare", tag: "tools", description: "Allows you to share your projects via tunneling", url: "https://github.com/yoskasss/goShare" },
   ],
 
   skills: [
