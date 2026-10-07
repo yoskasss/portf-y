@@ -5,6 +5,7 @@ import { Links } from "@/components/Links";
 import { Projects } from "@/components/Projects";
 import { Skills } from "@/components/Skills";
 import { Footer } from "@/components/Footer";
+import { BlogPreview } from "@/components/BlogPreview";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </div>
         <Projects />
         <Skills />
+        <BlogPreview />
       </main>
       <Footer />
     </>
