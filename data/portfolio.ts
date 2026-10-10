@@ -7,7 +7,7 @@ export const SITE_URL = "https://yoskass.dev"; // canonical URL placeholder
 
 export const portfolio = {
   name: "Enes Aksoy",
-  handle: "yoskass",
+  handle: "yoskAss",
   title: "Developer",
   tagline: "18 y/o · 7 years writing code · low-level, security & AI",
   email: "contact@yoskass.dev",
