@@ -27,7 +27,7 @@ export const portfolio = {
 
   projects: [
     { name: "VioletOS", tag: "low-level", description: "Operating system built from scratch.", url: "https://violetos.site.je" },
-    { name: "ZekaNet Labs", tag: "startup", description: "A small startup venture.", url: "https://zekanet.com" },
+    { name: "ZekaNet", tag: "startup", description: "A small startup venture.", url: "https://zekanet.com" },
     { name: "ShitMyWeb", tag: "security", description: "Anonymous, no-log media sharing site.", url: "https://shitmyweb.free.nf" },
     { name: "goShare", tag: "tools", description: "Allows you to share your projects via tunneling", url: "https://github.com/yoskasss/goShare" },
   ],
