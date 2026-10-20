@@ -1,4 +1,4 @@
-import { ArrowUpRight, Camera, Code2, Mail, ShieldCheck, User, type LucideIcon } from "lucide-react";
+import { ArrowUpRight, Camera, Code2, Mail, Play, ShieldCheck, User, type LucideIcon } from "lucide-react";
 import { portfolio, isRealUrl } from "@/data/portfolio";
 
 type Item = { label: string; desc: string; href: string; icon: LucideIcon; external: boolean };
@@ -10,6 +10,7 @@ const items: Item[] = [
   { label: "GitHub — security", desc: "Security focused repositories", href: links.githubSecurity, icon: ShieldCheck, external: true },
   { label: "LinkedIn", desc: "Professional profile", href: links.linkedin, icon: User, external: true },
   { label: "Instagram", desc: "Personal account", href: links.instagram, icon: Camera, external: true },
+  { label: "YouTube", desc: "@yoskasss", href: links.youtube, icon: Play, external: true },
 ];
 
 export function Links() {
@@ -37,13 +38,14 @@ export function Links() {
                 <a
                   href={href}
                   {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                  aria-label={external ? `${label} (opens in a new tab)` : `${label}: ${desc}`}
-                  className="group flex min-h-14 items-start gap-3 py-3 transition-colors"
+                  className="group flex items-start gap-3 py-4"
                 >
                   {inner}
                 </a>
               ) : (
-                <span className="flex min-h-14 items-start gap-3 py-3 opacity-50">{inner}</span>
+                <div className="group flex items-start gap-3 py-4 opacity-60">
+                  {inner}
+                </div>
               )}
             </li>
           );
