@@ -23,6 +23,7 @@ export const portfolio = {
     githubSecurity: "https://github.com/HeJo-1",
     linkedin: "https://www.linkedin.com/in/enes-aksoy54/",
     instagram: "https://www.instagram.com/enes.aksoy69",
+    youtube: "https://youtube.com/@yoskasss",
   },
 
   projects: [
@@ -37,6 +38,17 @@ export const portfolio = {
     "Game Development", "AI", "Low-Level Programming",
   ],
 };
+
+/**
+ * Follower counts per platform. Instagram and X have no free public API,
+ * so update these numbers by hand. The total is computed automatically.
+ * Leave url as "" (or a placeholder) to render the platform without a link.
+ */
+export const followers = [
+  { platform: "Youtube", count: 13, url: portfolio.links.youtube },
+  { platform: "Instagram", count: 56, url: portfolio.links.instagram },
+  { platform: "X (Twitter)", count: 52, url: "YOUR_X_URL" },
+];
 
 /** A URL counts as real only if it is an absolute http(s) URL. */
 export const isRealUrl = (url: string) => /^https?:\/\//.test(url);
